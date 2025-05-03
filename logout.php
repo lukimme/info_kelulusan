@@ -1,0 +1,1 @@
+<?php session_start(); session_destroy(); setcookie('token', '', time() - 60, '/'); header('Location: login.php'); ?>
