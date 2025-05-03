@@ -1,0 +1,3 @@
+# Minimal .htaccess yang aman
+Options +FollowSymLinks
+RewriteEngine On
