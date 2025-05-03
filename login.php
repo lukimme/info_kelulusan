@@ -15,7 +15,7 @@
         <div class="bg-cyan-500 bg-opacity-70 text-white p-8 rounded-lg w-full max-w-lg mx-4">
             <img src="img/logopanjang.png" alt="SMKBM" class="mx-auto mb-6 max-w-xs" />
             <h2 class="text-base md:text-3xl font-bold text-center mb-3 mt-4">
-                PENGUMUMAN HASIL UJIAN<br />SMK BUDI MULIA PAKISAJI
+                PENGUMUMAN KELULUSAN<br />SMK BUDI MULIA PAKISAJI
             </h2>
             <p class="text-center mt-6 mb-4">Masukkan Nomor Peserta Ujian dan NISN.</p>
             <form method='POST' action='proses_login.php'>
@@ -35,7 +35,7 @@
                 <?php if (isset($_GET['error'])): ?>
                 <div id="alert-box"
                     class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 bg-red-500 text-white px-6 py-3 rounded shadow-lg z-50 transition duration-500 ease-in-out">
-                    <strong>Login Gagal!</strong> Nomor peserta atau NISN salah.
+                    <strong>Tidak Terdaftar!</strong> Nomor peserta atau NISN salah.
                 </div>
 
                 <script>
